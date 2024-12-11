@@ -1,0 +1,15 @@
+### GET CoffeeDataTrigger
+GET http://localhost:7071/api/CoffeeDataTrigger
+Content-Type: application/json
+
+### POST CoffeeDataTrigger
+POST http://localhost:7071/api/CoffeeDataTrigger
+Content-Type: application/json
+
+{
+  "sampleData": "test"
+}
+
+### GET GetTransactions
+GET http://localhost:7071/api/transactions
+Content-Type: application/json
